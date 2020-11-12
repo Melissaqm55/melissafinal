@@ -1,0 +1,229 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: pink;
+}
+
+/*Menú*/
+.menu{
+    list-style: none;
+    padding: 0;
+    background: blanchedalmond;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: cornsilk;
+    color: crimson;
+    padding: 20px;
+    display:block;    
+}
+
+.menu li{ 
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background:rosybrown;
+}
+
+/*Inicio*/
+
+span {color: #ccc }
+
+.imgs {
+    margin: 60px auto;
+    border: 1px solid;
+    padding: 1em;
+}
+
+img {
+    height: auto;
+    
+}
+
+.contenedor{
+    background: honeydew;
+    padding: 50px;
+    margin: 40px;
+}
+
+.contenedortexto{
+    background: honeydew;
+    padding: -10px;
+    margin: 10px;
+}
+
+.contenedorimagen{
+    background: honeydew;
+    padding: 80px;
+    margin: 40px;
+    align: center;
+}
+
+h1 {
+    font-size: italic;
+    color: pink;
+    text-align: center;
+}
+
+h4{ 
+    font-size: italic;
+    color: black;
+    text-align: center;
+}
+
+.card{
+    box-sizing: border-box;
+    transition: 0.3s;
+    background: pink;
+    text-align: center;
+    margin-top: 20px;
+    display: table;
+}
+
+.card :hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba (0,0,0,0.2);
+}
+/*Historia*/
+
+.fotos{
+    width: 90%;
+    max-width: 1000px;
+    border: 10px solid #000;
+    margin: auto;
+    line-height: 50px;
+    text-align:center;
+}
+
+ .fotos{
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: 520px 400px;
+     grid-template-rows: 300px 30   0px;    
+}
+
+ /*Portafolio*/
+
+.portafolio{
+    width: 90%;
+    max-width: 1000px;
+    border: 10px solid blanchedalmond;
+    margin: auto;
+    line-height: 50px;
+    padding: 50px;
+    background: wheat;
+}
+.portafolio{
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: 450px 450px;
+     grid-template-rows: 500px 700px -50px 700px;    
+
+}
+
+ /*Parrafo*/
+ .p{
+     text-align: left;
+     color: cornsilk;
+     background: white;
+     margin: 2px;
+     padding: 10px;
+ }
+
+
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Barra de redes sociales y página de incio*/
+
+.contenedor1{
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card{
+    box-sizing: border-box;
+    transition: 0.3s;
+    background: pink;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    color:black;
+}
+
+p { 
+    padding: 10px;
+    color: purple;
+}
+
+.card :hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba (0,0,0,0.2);
+}
+
+.row{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}  
+
+.nav {
+    margin-top: 5px;
+    }
+
+.nav li{
+    display: block;
+    color: pink;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.nav li :hover {
+    background:white;
+}
+
+.nav ul{
+    background-color: chocolate;
+}
+
+.item {
+    background: mediumvioletred;
+    color: pink;
+    margin: 4px;
+    padding: 15px;
+}
+
+.item:nth-child(1) {
+    background: rgb(250, 249, 248);
+    align-self: flex-start; 
+}
+
+.mel{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background: wheat;
+    font-size: 40px;
+}
+
+
+
+
+
+
